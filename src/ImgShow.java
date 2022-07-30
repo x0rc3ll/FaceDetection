@@ -7,4 +7,8 @@ public class ImgShow extends JFrame {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         System.out.println("Lib version: " + Core.VERSION);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
